@@ -1,10 +1,15 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-black">
-      <h1 className="text-6xl font-bold text-violet-500">
-        Hello Sneha 👋🏻
-      </h1>
-    </div>
+    <>
+      <Navbar />
+      <main className="flex min-h-screen items-center justify-center">
+        <h1 className="text-6xl font-bold text-violet-500">
+          Portfolio Coming Soon!
+        </h1>
+      </main>
+    </>
   );
 }
 
