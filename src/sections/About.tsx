@@ -8,11 +8,9 @@ function About() {
                 About Me
             </h2>
 
-            <div className="mt-14 grid gap-14 lg:grid-cols-2">
+            <div className="mt-14">
 
-                {/* LEFT */}
-
-                <div className="space-y-7 text-lg leading-9 text-zinc-400">
+                <div className="max-w-3xl space-y-7 text-lg leading-9 text-zinc-400">
 
                     <p>
                         I'm a Computer Science undergraduate at
@@ -36,9 +34,7 @@ function About() {
 
                 </div>
 
-                {/* RIGHT */}
-
-                <div className="flex flex-wrap justify-center gap-6 lg:justify-start">
+                <div className="mt-16 flex flex-wrap justify-center gap-8">
 
                     <Card number="8.95" text="Current CGPA" />
 
@@ -49,7 +45,6 @@ function About() {
                 </div>
 
             </div>
-
         </section>
     );
 }
